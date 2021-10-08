@@ -1,0 +1,72 @@
+/* navbar */
+.nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .nav {
+    display: block;
+  }
+  .nav__right {
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+}
+
+.logo {
+  display: block;
+}
+
+.nav__right {
+  max-width: 365px;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.location,
+.guests,
+.add-guests {
+  color: #bdbdbd;
+  font-size: 0.875rem;
+  padding: 1rem;
+  border-right: 1px solid #f2f2f2;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+input.guests {
+  color: black;
+  font-size: 0.8rem;
+}
+input::placeholder {
+  color: #bdbdbd;
+}
+
+.location-black {
+  color: black;
+}
+
+.location,
+.location-black {
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 698px) {
+  .gray-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: -11;
+  }
+}

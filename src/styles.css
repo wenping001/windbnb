@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+.app {
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem;
+}
+
+/* common style */
+.flex {
+  display: flex;
+}
+
+/* icon */
+.icon-star {
+  width: 15px;
+}
+
+.icon-search {
+  width: 18px;
+  margin: 0 auto;
+}
+
+.icon-close {
+  width: 20px;
+  cursor: pointer;
+}
+
+.icon-location {
+  width: 22px;
+}
+
+.hide {
+  display: none;
+  /* opacity: 0; */
+}
+
+.add-guests.text-black {
+  color: black;
+}

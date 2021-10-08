@@ -1,0 +1,7 @@
+/* staylist */
+.stayList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.125rem;
+  /* grid-template-rows: repeat(2, minmax(230px, 1fr)); */
+}

@@ -1,0 +1,20 @@
+.locationList {
+  margin: 2rem;
+}
+.locationItem {
+  display: flex;
+  padding: 1.3rem 1rem;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin: 0.5rem 0;
+  transition: all 350ms ease-in-out;
+  border-radius: 18px;
+}
+.locationItem:hover {
+  border-color: gray;
+}
+
+.locationItem span {
+  margin-left: 0.5rem;
+}

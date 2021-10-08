@@ -1,0 +1,16 @@
+/* stayheader */
+.stayHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.2rem 0;
+}
+.stayHeader__title {
+  font-size: 1.2rem;
+}
+.stayHeader__total {
+  font-size: 0.875rem;
+}
+.stayHeader__total::after {
+  content: " stays";
+}

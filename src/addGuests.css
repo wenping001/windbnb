@@ -1,0 +1,20 @@
+.addGuests {
+  margin: 2rem 2.8rem;
+  font-size: 0.8rem;
+}
+
+.adult {
+  margin-bottom: 3rem;
+}
+.font-bold {
+  font-family: Mulish;
+  font-weight: 700;
+}
+
+.text-gray {
+  color: #bdbdbd;
+}
+
+.my-2 {
+  margin: 0.5rem 0;
+}
